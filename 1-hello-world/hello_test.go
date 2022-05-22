@@ -23,8 +23,6 @@ func TestHello(t *testing.T) {
 		assertCorrectMessage(t, got, want)
 	})
 
-
-
 	t.Run("saying hello to people", func(t *testing.T) {
 		got := Hello("Harman", "")
 		want := "Hello, Harman"

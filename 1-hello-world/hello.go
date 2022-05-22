@@ -7,10 +7,9 @@ import (
 
 var prefixes = map[string]string{
 	"spanish": "Hola, ",
-	"french": "Bonjour, ",
+	"french":  "Bonjour, ",
 	"english": "Hello, ",
 }
-
 
 func Hello(name string, language string) string {
 	language = strings.ToLower(language)
