@@ -132,3 +132,28 @@ func TestHello(t *testing.T) {
 }
 
 ```
+
+Named Return Value
+
+```go
+func greetingPrefix(language string) (prefix string) { // named return value of prefix
+	switch language {
+	case french:
+		prefix = frenchHelloPrefix
+	case spanish:
+		prefix = spanishHelloPrefix
+	default:
+		prefix = englishHelloPrefix
+	}
+	// will return prefix
+	return
+}
+
+func Hello(name string, language string) string {
+	if name == "" {
+		name = "World"
+	}
+	// prefix is initialized
+	return greetingPrefix(language) + name
+}
+```

@@ -4,7 +4,7 @@
 
 - [x] Install Go
 - [x] Hello, World
-- [ ] Integers
+- [x] Integers
 - [ ] Iteration
 - [ ] Arrays and slices
 - [ ] Structs, methods and interfaces
