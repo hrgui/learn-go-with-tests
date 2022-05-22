@@ -5,10 +5,12 @@ import (
 	"strings"
 )
 
-const englishHelloPrefix = "Hello, "
+var prefixes = map[string]string{
+	"spanish": "Hola, ",
+	"french": "Bonjour, ",
+	"english": "Hello, ",
+}
 
-const spanishHelloPrefix = "Hola, "
-const frenchHelloPrefix = "Bonjour, "
 
 func Hello(name string, language string) string {
 	language = strings.ToLower(language)
@@ -17,16 +19,11 @@ func Hello(name string, language string) string {
 		name = "World"
 	}
 
-	prefix := englishHelloPrefix
-
-	switch language {
-	case "french":
-		prefix = frenchHelloPrefix
-	case "spanish":
-		prefix = spanishHelloPrefix
+	if language == "" {
+		language = "english"
 	}
 
-	return prefix + name
+	return prefixes[language] + name
 }
 
 func main() {
