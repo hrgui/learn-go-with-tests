@@ -1,4 +1,4 @@
-package iteration
+package main
 
 func Repeat(s string, max int) string {
 	repeated := ""
