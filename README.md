@@ -21,7 +21,7 @@ go install github.com/mitranim/gow@latest
 - [x] Arrays and slices
 - [x] Structs, methods and interfaces
 - [x] Pointers and errors
-- [ ] Maps
+- [x] Maps
 - [ ] Dependency Injection
 - [ ] Mocking
 - [ ] Concurrency
