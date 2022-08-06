@@ -20,7 +20,7 @@ go install github.com/mitranim/gow@latest
 - [x] Iteration
 - [x] Arrays and slices
 - [x] Structs, methods and interfaces
-- [ ] Pointers and errors
+- [x] Pointers and errors
 - [ ] Maps
 - [ ] Dependency Injection
 - [ ] Mocking
