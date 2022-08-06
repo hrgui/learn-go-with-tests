@@ -1,10 +1,16 @@
+# Difference between array and slices
+
+- **array** allows you to store multiple elements of the same type in a variable in a particular order. It has a **fixed** size.
+- **slice** are the same as arrays except it has a variable size.
+
 # useful array functions
 
 - len(array) - length of the array
 - append(array, x) - append a value to the end of the array
-- make(x, length) - makes an array with length
 - copy() - copies the array
-- x[a:b] - slice the array x from a,b - but unlike in JS this is a pointer. Use copy to make a new one.
+- x[a:b] - _slice_ the array x from a,b - but unlike in JS this is a pointer. Use copy to make a new one.
+
+- make(x, length) - makes a slice with length
 
 # Initialize an array
 

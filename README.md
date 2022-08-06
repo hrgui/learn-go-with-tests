@@ -6,8 +6,8 @@
 - [x] Hello, World
 - [x] Integers
 - [x] Iteration
-- [ ] Arrays and slices
-- [ ] Structs, methods and interfaces
+- [x] Arrays and slices
+- [x] Structs, methods and interfaces
 - [ ] Pointers and errors
 - [ ] Maps
 - [ ] Dependency Injection
