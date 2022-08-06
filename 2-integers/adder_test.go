@@ -1,25 +1,24 @@
 package integers
 
 import (
-	"testing" 
 	"fmt"
+	"testing"
 )
 
 func TestAdder(t *testing.T) {
-		// to not repeat got != want
-		assertCorrectMessage := func(t testing.TB, got, want int) {
-			t.Helper() // this tells that when a test fails, the failure won't be in here but rather in the caller of this helper
-			if got != want {
-				t.Errorf("got %d want %d", got, want)
-			}
+	// to not repeat got != want
+	assertCorrectMessage := func(t testing.TB, got, want int) {
+		t.Helper() // this tells that when a test fails, the failure won't be in here but rather in the caller of this helper
+		if got != want {
+			t.Errorf("got %d want %d", got, want)
 		}
-	
-		t.Run("2 + 2 = 4", func(t *testing.T) {
-			got := Add(2,2)
-			want := 4
-			assertCorrectMessage(t, got, want)
-		})
+	}
 
+	t.Run("2 + 2 = 4", func(t *testing.T) {
+		got := Add(2, 2)
+		want := 4
+		assertCorrectMessage(t, got, want)
+	})
 
 }
 
