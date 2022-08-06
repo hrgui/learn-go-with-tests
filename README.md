@@ -1,5 +1,17 @@
 # https://quii.gitbook.io/learn-go-with-tests/
 
+# How i run the tests
+
+Install
+
+```
+go install github.com/mitranim/gow@latest
+```
+
+```
+ ~/go/bin/gow -v -c test
+```
+
 # Go Fundamentals
 
 - [x] Install Go
