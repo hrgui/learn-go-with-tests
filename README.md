@@ -25,7 +25,7 @@ go install github.com/mitranim/gow@latest
 - [x] Dependency Injection
 - [x] Mocking
 - [x] Concurrency
-- [ ] Select
+- [x] Select
 - [ ] Reflection
 - [ ] Sync
 - [ ] Context
