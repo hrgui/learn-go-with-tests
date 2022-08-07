@@ -23,8 +23,8 @@ go install github.com/mitranim/gow@latest
 - [x] Pointers and errors
 - [x] Maps
 - [x] Dependency Injection
-- [ ] Mocking
-- [ ] Concurrency
+- [x] Mocking
+- [x] Concurrency
 - [ ] Select
 - [ ] Reflection
 - [ ] Sync
