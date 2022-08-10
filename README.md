@@ -27,7 +27,7 @@ go install github.com/mitranim/gow@latest
 - [x] Concurrency
 - [x] Select
 - [x] Reflection
-- [ ] Sync
+- [x] Sync
 - [ ] Context
 - [ ] Intro to property based tests
 - [ ] Maths
