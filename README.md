@@ -29,8 +29,8 @@ go install github.com/mitranim/gow@latest
 - [x] Reflection
 - [x] Sync
 - [x] Context
-- [ ] Intro to property based tests
-- [ ] Maths
+- [x] Intro to property based tests
+- [x] Maths
 - [ ] Reading files
 - [ ] Templating
 - [ ] Generics
